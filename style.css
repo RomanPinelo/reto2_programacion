@@ -11,9 +11,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
-  Mobile View 
-*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*/
 .text {
   margin: 1rem;
 }
@@ -50,4 +47,8 @@ button:hover {
 .respuesta {
   width: 85%;
   margin: 2rem auto;
+}
+
+a {
+  color: aqua;
 }
