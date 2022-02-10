@@ -49,6 +49,10 @@ function pintarOpcion1(data) {
     item.is_answered ? contestadas++ : noContestadas++
   }
 
+  // Pinto en la consola la información
+  console.log(contestadas);
+  console.log(noContestadas);
+
   // Pinto en el Dom la información
   infoSection.innerHTML = `
     <p class="respuesta">
@@ -76,6 +80,11 @@ function pintarOpcion2(data) {
   let maximo = Math.max(...reputation);
   let link = links[reputation.indexOf(maximo)];
 
+  // Pinto en la consola la información
+  console.log(maximo);
+  console.log(link);
+
+  // Pinto en el DOM la información
   infoSection.innerHTML = `
     <p class="respuesta">
       El propietario con mayor reputación es: ${maximo}
@@ -104,6 +113,11 @@ function pintarOpcion3(data) {
 
   let link = links[vistas.indexOf(minimo)];
 
+  // Pinto en la consola la información
+  console.log(minimo);
+  console.log(link);
+
+  // Pinto en el DOM la información
   infoSection.innerHTML = `
     <p class="respuesta">
       El menor número de vistas fue de: ${minimo} vistas
@@ -142,9 +156,13 @@ function pintarOpcion4(data) {
   let fechaVieja = new Date(minimo);
   let fechaNueva = new Date(maximo);
 
+  // Pinto en la consola la información
   console.log(fechaVieja);
+  console.log(link1);
   console.log(fechaNueva);
+  console.log(link2);
 
+  // Pinto en el DOM la información
   infoSection.innerHTML = `
     <p class="respuesta">
       La respuesta con fecha más vieja es: ${fechaVieja}
@@ -201,6 +219,18 @@ function pintarOpcion5(data) {
 
   let fechaVieja = new Date(minimo1);
   let fechaNueva = new Date(maximo1);
+
+  // Pinto en la consola la información
+  console.log(contestadas);
+  console.log(noContestadas);
+  console.log(maximo);
+  console.log(link);
+  console.log(minimo);
+  console.log(link1);
+  console.log(fechaVieja);
+  console.log(link3);
+  console.log(fechaNueva);
+  console.log(link4);
 
   // Pinto en el Dom la información
   infoSection.innerHTML = `
