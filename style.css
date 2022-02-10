@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  width: 100%;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
+  Mobile View 
+*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*/
+.text {
+  margin: 1rem;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.optionText {
+  width: 60%;
+}
+
+button {
+  background-color: #000;
+  color: #fff;
+  display: block;
+  width: 20%;
+  height: 2rem;
+  outline: 0;
+  border: 2px solid #fff;
+  border-radius: 9999px;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+}
+
+.respuesta {
+  width: 85%;
+  margin: 2rem auto;
+}
